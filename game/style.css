@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #0c1f16;
+  color: #f5f0dc;
+  font-family: Georgia, 'Times New Roman', serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main { text-align: center; padding: 12px; }
+canvas {
+  display: block;
+  width: min(1280px, 96vw);
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.hint { font-size: 15px; opacity: 0.85; margin: 10px 0 0; }
